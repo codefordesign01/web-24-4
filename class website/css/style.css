@@ -1,0 +1,72 @@
+body{
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+/*navbar css start here*/
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding:0px 100px;
+}
+.logo{
+	color: red;
+}
+.logo span{
+	color: white;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+}
+.navbar ul li{
+	margin-left: 20px;
+}
+.navbar ul li a{
+	color: white;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+.navbar ul li a:hover{
+	background-color: red;
+}
+/*banner section css start here*/
+.banner{
+	border:2px solid;
+	height: 500px;
+	background-image: url('../media/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h2{
+	color: red;
+}
+.banner h1{
+	color: white;
+}
+/*products row css strt here*/
+.main{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 100px 50px 100px;
+}
+.card{
+	width: 30%;
+	border:2px solid green;
+	border-radius: 8px;
+}
+.card h3{
+	margin-top: 0px;
+}
+.card-body{
+	padding: 20px;
+}
+.headingBox{
+	padding:50px 100px 50px 100px;
+}
