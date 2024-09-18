@@ -60,6 +60,23 @@ a{
 	width: 30%;
 	border:2px solid green;
 	border-radius: 8px;
+	position: relative;
+}
+.badge{
+	background-color: blue;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.badge1{
+	background-color: green;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+
 }
 .card h3{
 	margin-top: 0px;
