@@ -1,0 +1,70 @@
+/*navbar css*/
+.navbar{
+	background-color: #232323;
+}
+.navvbar .nav-link{
+	position: relative;
+}
+.navvbar .nav-link::before{
+	content: "";
+	background-color: red;
+	width: 0%;
+	height: 2px;
+	bottom:0;
+	right: 0;
+	position: absolute;
+	transition: 0.5s
+}
+.navvbar .nav-link:hover::before{
+	width: 100%;
+	left: 0;
+}
+/*banner css*/
+.banner{
+	background-image: url("../media/banner.jpg");
+	padding: 150px 0px;
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	z-index: 1;
+}
+.banner h1{
+	font-size: 60px;
+}
+.banner::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1
+}
+footer{
+	background-color: #232323;
+}
+.nav-pills .active{
+	background-color: green !important;
+}
+.carousel-indicators [data-bs-target]{
+	width: 20px !important;
+	height: 20px !important;
+	border-radius: 50%;
+}
+
+
+@media screen and (max-width: 991px){
+	.banner h1{
+		font-size: 40px;
+	}
+	.banner{
+		padding: 100px 0px;
+	}
+}
+@media screen and (max-width: 767px){
+	.banner{
+		padding: 70px 0px;
+	}
+}
